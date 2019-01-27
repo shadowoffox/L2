@@ -12,7 +12,7 @@ public class Main {
                     arr[i][j] = "1";
                 }
             }
-            arr[SIZE-1][SIZE-1]="-";
+           // arr[SIZE-1][SIZE-1]="-";
 
         try {
 
