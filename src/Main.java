@@ -5,7 +5,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-            int SIZE=5;
+            int SIZE=4;
             String[][] arr = new String[SIZE][SIZE];
             for (int i = 0; i < SIZE; i++) {
                 for (int j = 0; j < SIZE; j++) {
@@ -20,12 +20,12 @@ public class Main {
 
         } catch (MySizeArrayException e){
 
-            System.out.println(e);
+            System.out.println(e.getMessage());
 
 
         } catch (MyArrayDataException e1){
 
-            System.out.println(e1);
+           System.out.println(e1.getMessage());
         }
     }
 }
