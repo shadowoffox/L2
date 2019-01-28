@@ -1,12 +1,8 @@
 package MyExceptions;
 
 public class MySizeArrayException extends ArrayIndexOutOfBoundsException {
-    public MySizeArrayException() {
-
+    public MySizeArrayException(String message) {
+    super(message);
     }
 
-    @Override
-    public String toString() {
-        return " Ошибка! Данный массив не соответствует требованию!";
-    }
 }
